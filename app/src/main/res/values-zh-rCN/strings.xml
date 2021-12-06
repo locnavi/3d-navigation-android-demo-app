@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">3d-navigation-android-demo-app</string>
+    <string name="demo_speech_recognition">语音识别</string>
+    <string name="demo_map_page">地图页面</string>
+    <string name="demo_list_page">列表页面</string>
+</resources>

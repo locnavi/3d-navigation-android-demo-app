@@ -95,19 +95,19 @@
             android:id="@+id/btn_speech"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
-            android:text="语音识别" />
+            android:text="@string/demo_speech_recognition" />
 
         <Button
             android:id="@+id/btn_map"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
-            android:text="进入地图页面" />
+            android:text="@string/demo_map_page" />
 
         <Button
             android:id="@+id/btn_list"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
-            android:text="列表页面" />
+            android:text="@string/demo_list_page" />
 
     </LinearLayout>
 

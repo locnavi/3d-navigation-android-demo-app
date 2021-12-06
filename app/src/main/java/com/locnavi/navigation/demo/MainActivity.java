@@ -81,11 +81,11 @@ public class MainActivity extends AppCompatActivity {
         //设置模式，这里设置成自由模式
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
         //提示语音开始文字
-        intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "请开始说话");
+        intent.putExtra(RecognizerIntent.EXTRA_PROMPT, R.string.locnavi_speech_start);
         try {
             startActivityForResult(intent, RESULT_SPEECH);
         }catch (ActivityNotFoundException a) {
-            Toast t = Toast.makeText(getApplicationContext(), "语音识别服务无法正常使用", Toast.LENGTH_SHORT);
+            Toast t = Toast.makeText(getApplicationContext(), R.string.locnavi_speech_service_unavailable, Toast.LENGTH_SHORT);
             t.show();
         }
     }

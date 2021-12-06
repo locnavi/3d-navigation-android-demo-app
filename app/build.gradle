@@ -37,7 +37,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     // use jitpack from github
-    implementation 'com.github.locnavi:IndoorNavigationAndroidWebSDK:0.0.6'
+    implementation 'com.github.locnavi:IndoorNavigationAndroidWebSDK:0.0.7'
     implementation 'org.altbeacon:android-beacon-library:2+'
     implementation 'com.orhanobut:logger:2.2.0'
 //    implementation 'com.github.locnavi:AndroidLocationOnlineSDK:0.0.3'

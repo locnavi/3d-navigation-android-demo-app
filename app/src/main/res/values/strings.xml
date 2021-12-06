@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">3d-navigation-android-demo-app</string>
+    <string name="demo_speech_recognition">語音辨識</string>
+    <string name="demo_map_page">地圖頁面</string>
+    <string name="demo_list_page">清單頁面</string>
 </resources>
